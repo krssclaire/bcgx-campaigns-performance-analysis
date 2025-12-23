@@ -10,10 +10,23 @@ The analysis evaluates two campaign versions (Campaign A and Campaign B) distrib
 * **Campaign A**: Focuses on a friendly, informal tone designed to build trust and engage new customers. Suitable for channels that favor personal and approachable messaging, like Email or Instagram posts.
 * **Campaign B**: Uses a professional, sales-oriented tone to drive immediate conversions. Designed for channels where users are ready to purchase or respond to promotional content, such as Email and Web Banners.
 
+### Tools and Skills Used
+* **Excel**: Pivot tables, chart creation
+* **Data Analysis**: Hypothesis testing, cohort analysis, segmentation
+* **Business Intelligence**: KPI definition, performance metrics, strategic recommendations
+
 ## Analysis Approach
 The analysis follows a hypothesis-driven, consulting-style approach.  
-Starting from the client’s business questions, initial hypotheses were formulated based on campaign formats, channels, and customer segments.  
-These hypotheses were then tested using Excel-based analysis and visualizations to generate actionable insights.
+Starting from the client’s business questions, initial hypotheses were formulated based on campaign formats, channels, and customer segments. 
+
+**Data & Tools:**
+* The dataset was provided pre-cleaned by the BCGX simulation
+* Analysis conducted entirely in Excel using pivot tables to aggregate and segment data
+* Visualizations created with Excel charts to communicate findings effectively
+
+<img src="./media/output/excel-demo.png">
+
+These hypotheses were then tested using the Excel-based analysis to generate actionable insights.
 
 ## Business Questions
 The client aims to understand the effectiveness of its marketing efforts and define future investment priorities.  
@@ -31,12 +44,12 @@ Before conducting the analysis, the following hypotheses were formulated:
 ## Analysis & Key Findings
 
 ### Revenue Performance  
-Email campaigns generated the highest total revenue overall (54%).
+Email campaigns generated 54% of total revenues ($7.9k).
 
 <img src="./media/output/graphs/channel-performance.png">
 
 ### Message Effectiveness  
-Campaign B performed best in terms of overall sales, regardless of customer type.
+Campaign B performed best in terms of overall sales ($8.7k), regardless of customer type.
 
 <img src="./media/output/graphs/campaign-performance.png">
 
@@ -46,12 +59,12 @@ The strongest campaign-channel combination in terms of sales was **Email + Campa
 <img src="./media/output/graphs/overall-performance.png">
 
 ### Engagement Beyond Sales  
-Instagram showed the highest average Time on Site among users who did not convert, suggesting strong top-of-funnel engagement potential.
+Instagram shows high interaction time among users who did not convert, highlighting top-of-funnel potential for future retargeting campaigns.
 
 <img src="./media/output/graphs/interaction-time-non-converted.png">
 
 ### New Customer Acquisition  
-**Email + Campaign A** was the most effective combination for attracting new customers.
+**Email + Campaign A** was the most effective combination for attracting new customers ($3.5k of sales).
 
 <img src="./media/output/graphs/new-customers-acquisition.png">
 
@@ -66,3 +79,21 @@ Based on the insights:
 * Maximizing revenue and acquiring new customers require different channel and message strategies.
 * Email remains the most effective channel overall, but message tone significantly impacts outcomes.
 * A key trade-off to consider is balancing short-term revenue with long-term new customer growth.
+
+## Repository Structure
+* **analysis/**
+    * [campaigns-analysis.xlsx](./analysis/campaigns-analysis.xlsx) - Main analysis file with pivot tables, calculations and graphs
+* **dataset/**
+    * [campaign_data_week1.xlsx](./dataset/campaign_data_week1.xlsx) - Original dataset from BCGX simulation
+* **media/**
+    * [input](./media/input/) - Project brief and context documents
+    * [output](./media/output/) - All visualizations used in analysis
+
+## How to Reproduce
+1. Clone or download this repository
+2. Open `analysis/campaigns-analysis.xlsx` in Microsoft Excel
+3. Navigate through the pivot table sheets to explore the analysis
+4. Review this `README.md` for complete findings and strategic recommendations
+
+## About This Project
+This analysis was completed as part of the BCG X Data for Decision Makers virtual experience program on Forage, demonstrating business analysis and strategic thinking skills applicable to marketing analytics roles.
