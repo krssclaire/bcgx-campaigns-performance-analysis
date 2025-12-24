@@ -53,7 +53,7 @@ Campaign B performed best in terms of overall sales ($8.7k), regardless of custo
 
 <img src="./media/output/graphs/campaign-performance.png">
 
-### Channel Performance  
+### Campaign-channel best performer 
 The strongest campaign-channel combination in terms of sales was **Email + Campaign B**.
 
 <img src="./media/output/graphs/overall-performance.png">
@@ -87,7 +87,9 @@ Based on the insights:
     * [campaign_data_week1.xlsx](./dataset/campaign_data_week1.xlsx) - Original dataset from BCGX simulation
 * **media/**
     * [input](./media/input/) - Project brief and context documents
-    * [output](./media/output/) - All visualizations used in analysis
+    * [output](./media/output/) 
+        * [deliverables](./media/output/deliverables/) - Power Point and PDF final presentation as deliverables
+        * [graphs](./media/output/graphs/) - All visualizations used in analysis
 
 ## How to Reproduce
 1. Clone or download this repository
